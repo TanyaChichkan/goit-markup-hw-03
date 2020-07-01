@@ -160,7 +160,7 @@ align-items: baseline;
 
 .head-hero {
 width: 696px;
-height: 120px;
+/* height: 120px; */
 margin: 0 auto 30px; 
 
 font-weight: 900;
@@ -201,7 +201,7 @@ padding: 10px 62px 10px 29px;
 
 /* Features section */
 
-.features {
+.section {
     padding-bottom: 94px;
     padding-top: 94px;
 }
@@ -234,8 +234,8 @@ margin: 0;
 
 /* Main-content section */
 
-.main-content {
-    padding-bottom:  94px ;
+.section.main-content {
+    padding-top: 0; 
 }
 
 .main-content-list {
@@ -288,10 +288,7 @@ display: inline-block;
 
 /* Section team */
 
-.team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
+.team.section {
     background-color: #F5F4FA;
 }
 
@@ -323,7 +320,7 @@ color: var(--primary-text-color);
 }
 
 .team-list-text {
-margin: 10px auto 16px;
+margin-bottom:  16px;
 
 font-size: 16px;
 line-height: 1.18;
@@ -468,11 +465,6 @@ margin-right: 216px;
 /* PORTFOLIO PAGE */
 
 /*port-menu section*/
-
-.port-content {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .port-menu-list {
     /* padding-bottom: 16px; */
